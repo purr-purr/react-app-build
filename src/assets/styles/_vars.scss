@@ -1,0 +1,20 @@
+// Breakpoints use in mixins
+$low-mobile-bp: 375px;
+$mobile-bp: 1024px;
+$tablet-bp: 1310px;
+
+// Colors
+$primary: #ac28f5;
+$primaryHover: #c55fff;
+
+:root {
+  --body-bg-color: #050505;
+  --border-color: #fff;
+  --main-text-color: #fff;
+}
+
+.light-mode {
+  --body-bg-color: #fff;
+  --border-color: #000;
+  --main-text-color: #000;
+}
